@@ -1,0 +1,35 @@
+@import (reference) "master.less";
+
+#embed-bonus-codes-promo {
+    .embed-bonus-codes-promo-code {
+        margin-left: 21px;
+        max-width: 416px;
+
+        @media (max-width: 1199px) {
+            margin-left: 30px;
+        }
+
+        @media (max-width: 730px) {
+            max-width: 413px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 506px) {
+            max-width: 220px;
+        }
+
+        .embed-bonus-codes-description {
+            display: none;
+        }
+
+        @media (max-width: 730px) {
+            #blackout-button {
+                width: 100%;
+            }
+        }
+    }
+
+    .embed-bonus-codes-progress-wrapper {
+        display: none;
+    }
+}

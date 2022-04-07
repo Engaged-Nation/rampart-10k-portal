@@ -1,0 +1,48 @@
+{
+    "less": {
+        "filters" : ["LessFilter", "Yui\\CssCompressorFilter"],
+        "debug": {
+            "filters": ["LessFilter"]
+        },
+        "collections": [
+            {
+                "files": [
+                    "vendor/engaged-nation/portal-core/FrontEnd/Resources/public/less/vendor/bootstrap/enPortal-bootstrap.less",
+                    "vendor/engaged-nation/portal-core/FrontEnd/Resources/public/less/vendor/lbxgrid.less",
+                    "vendor/engaged-nation/portal-core/FrontEnd/Resources/public/less/vendor/lbxtooltip.less",
+                    "vendor/engaged-nation/portal-core/FrontEnd/Resources/public/less/vendor/tabjs.less",
+                    "vendor/engaged-nation/portal-core/FrontEnd/Resources/public/less/vendor/coinanim.less",
+                    "vendor/engaged-nation/portal-core/FrontEnd/Resources/public/less/base.less",
+                    "vendor/engaged-nation/portal-core/FrontEnd/Resources/less/shared/font-animations.less",
+                    "vendor/engaged-nation/portal-core/FrontEnd/Resources/less/shared/button-animations.less",
+                    "vendor/engaged-nation/portal-core/Api/Resources/less/frontend/component/consecutivelogin.less",
+                    "app/Resources/assets/less/base.less",
+                    "app/Resources/assets/less/button.less",
+                    "app/Resources/assets/less/embed-bonus-codes.less",
+                    "app/Resources/assets/less/forms.less",
+                    "app/Resources/assets/less/fzone.less",
+                    "app/Resources/assets/less/instant-reward.less",
+                    "app/Resources/assets/less/iziModal.less",
+                    "app/Resources/assets/less/lbxgrid.less",
+                    "app/Resources/assets/less/loggedin.less",
+                    "app/Resources/assets/less/loggedout.less",
+                    "app/Resources/assets/less/me-area.less",
+                    "app/Resources/assets/less/my-vouchers.less",
+                    "app/Resources/assets/less/my-profile.less",
+                    "app/Resources/assets/less/rewards.less",
+                    "app/Resources/assets/less/site-feedback.less",
+                    "app/Resources/assets/less/navigation/page-footer.less",
+                    "app/Resources/assets/less/navigation/page-main-nav.less"
+                ],
+                "output": "www/css/base.css"
+            },
+            {
+                "files": [
+                    "vendor/engaged-nation/portal-core/FrontEnd/Resources/public/less/vendor/lbxgrid-no-namespace.less"
+                ],
+                "output": "www/css/admin/lbxgrid.css"
+            }
+        ]
+    },
+    "css": {}
+}

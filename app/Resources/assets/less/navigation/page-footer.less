@@ -1,0 +1,109 @@
+@import (reference) "../master.less";
+
+#page-footer {
+    font-size: 23px;
+    color: #fff;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    @media (max-width: 1199px) {
+        max-width: 970px;
+    }
+
+    @media (max-width: 991px) {
+        max-width: 750px;
+        font-size: 16px;
+    }
+
+    @media (max-width: 599px) {
+        font-size: 12px;
+    }
+
+    .page-footer-row-1 {
+        .fontTruenoRg;
+        margin: 0 auto;
+        padding: 20px 0;
+        text-transform: uppercase;
+        max-width: 1133px;
+        text-align: center;
+
+        a {
+            color: #ffffff;
+            position: relative;
+            .fontTruenoRg;
+
+            &:active {
+                color: #ffffff;
+            }
+
+            &.rampart-vimeo-video-link {
+                white-space: nowrap;
+            }
+        }
+    }
+
+    hr {
+        border-color: #000000;
+        margin: 0 auto;
+    }
+
+    .page-footer-row-2 {
+        .fontTruenoRg;
+        margin: 0;
+        padding: 0 0 20px 0;
+
+        img {
+            margin: 25px 0 auto;
+        }
+
+        a {
+            color: #ffffff;
+            position: relative;
+            .fontTruenoRg;
+            text-decoration: underline;
+
+            &:active {
+                color: #ffffff;
+            }
+        }
+
+        .page-footer-row-2-inner-wrapper {
+            max-width: 1133px;
+            margin: 0 auto;
+
+            @media (max-width: 860px) {
+                font-size: 14px;
+            }
+
+            .body-p-nocaps {
+                text-transform: initial;
+            }
+
+            .disclaimer {
+                font-size: 12px;
+
+                @media (max-width: 767px) {
+                    margin-top: 10px;
+                }
+
+                strong {
+                    .fontTruenoBd;
+                }
+            }
+
+            .image-logo-inner {
+                @media (max-width: 1199px) {
+                    margin: 1em 0;
+                }
+
+                @media (max-width: 991px) {
+                    margin: 2em 0;
+                }
+
+                @media (max-width: 767px) {
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

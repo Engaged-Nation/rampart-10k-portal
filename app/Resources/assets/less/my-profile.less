@@ -1,0 +1,137 @@
+@import (reference) "master.less";
+
+#myProfile {
+    .myprofile-container {
+        max-width: 700px;
+        margin: 0 auto;
+
+        #tab-accordion {
+            .tab-header {
+                .h1-headline-smaller {
+                    margin-bottom: 10px;
+                }
+
+                #editmyprofile {
+                    label {
+                        padding-top: 7px;
+                        cursor: default;
+                        text-align: left;
+                    }
+
+                    .profile-email-custom {
+                        padding-left: 11px;
+                        margin-bottom: 30px;
+
+                        @media (max-width: 991px) {
+                            padding-left: 0;
+                            max-width: 350px;
+                            margin: 0 auto 20px auto;
+                        }
+
+                        .showCursor {
+                            cursor: pointer;
+                        }
+                    }
+
+                    .profile-label-custom {
+                        padding-left: 0;
+                    }
+                }
+
+                #playerscardupdate {
+                    #playersCardUpdateButton {
+                        line-height: 1em;
+                        padding: 20px;
+                    }
+                }
+            }
+
+            .form-control {
+                @media (max-width: 991px) {
+                    max-width: 350px;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .terms-and-conditions-button-div {
+            .faq-terms-rules-button {
+                button {
+                    &#terms-and-condition-button {
+                        width: 180px;
+                    }
+                }
+            }
+        }
+    }
+    .h1-headline {
+        &.myProfile-playersCard-information {
+            display: inline-block;
+        }
+    }
+
+    .h1-headline {
+        &.myProfile-profile-information {
+            display: inline-block;
+            margin: 15px 0 20px 0;
+        }
+    }
+
+    #playersCardWrapper {
+        margin: 0 -15px 0 0;
+
+        .players-number-label {
+            margin: 0 0 0 -27px;
+        }
+
+        .players-card-input {
+            padding: 0 36px 0 0;
+        }
+
+        .update-players-card-button {
+            text-align: left;
+            margin: 0 0 0 -15px;
+        }
+    }
+
+    .players-card-button {
+        @media screen and (max-width: 990px) {
+            margin-top: -30px;
+        }
+    }
+
+    input {
+        &.button {
+            padding: 5px 15px;
+
+            @media screen and (max-width: 510px) {
+                margin: 0 0 10px 0;
+            }
+        }
+    }
+
+    #topActivities {
+        color: #000000;
+
+        .top-activities {
+            vertical-align: middle;
+        }
+
+        .top-activities-points {
+            white-space: nowrap;
+        }
+
+        .top-activities-date {
+            width: 31%;
+        }
+
+        .top-activities-no-activity-found {
+            margin-bottom: 10px;
+        }
+    }
+
+    .terms-and-conditions-button-div {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

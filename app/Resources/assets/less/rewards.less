@@ -1,0 +1,200 @@
+@import (reference) "master.less";
+
+#myvouchersAndRewards {
+    .my-vouchers-rewards {
+        font-size: 22px;
+
+        .voucher-button-wrapper {
+            display: none;
+        }
+
+        &> div {
+            display: none;
+        }
+
+        #printable-vouchers {
+            padding: 0;
+
+            .printme {
+                h3 {
+                    .fontTruenoBd;
+                    margin-top: 0;
+                    line-height: 1.2em;
+                }
+
+                p {
+                    text-align: left;
+                    margin: 0;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .btn-tools {
+                .btn-tools-wrapper {
+                    button {
+                        line-height: 1em;
+                        padding: 30px;
+
+                        @media (max-width: 335px) {
+                            font-size: 4.5vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#rewardsAndMyvouchers {
+    #myvouchersAndRewards {
+        .my-vouchers-rewards {
+            > div {
+                margin-bottom: 30px !important;
+            }
+
+            #printable-vouchers {
+                padding-inline-start: 0;
+
+                .goGold {
+                    .fontTruenoBd;
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    .voucher-button-wrapper {
+        margin: 20px 0 30px 0;
+        display: none;
+    }
+
+    .voucherButton {
+        float:none;
+        text-align: center;
+    }
+
+    .my-vouchers-rewards{
+        > div {
+            float:none !important;
+            text-align: center;
+            display: none;
+        }
+    }
+
+    #redeem {
+        .box-circles {
+            float: none;
+            width: 200px;
+            display: inline-block;
+            margin: 0 4px 40px 4px;
+            min-height: 420px;
+
+            .box-bg {
+                .saleBeforeDealWrapper {
+                    margin: 10px auto -10px auto;
+
+                    .saleBeforeDeal {
+                        .fontTruenoBd;
+                        opacity: 0.4;
+                        font-size: 23px;
+                        .en-font-animations-strikethrough();
+
+                        &:after {
+                            background: #000000 !important;
+                            margin-top: -17px;
+                        }
+                    }
+                }
+
+                .item-wrap {
+                    margin: 10px auto;
+                }
+            }
+        }
+
+        .earn-price {
+            .fontTruenoBd;
+            font-size: 23px;
+            margin: 10px 0;
+
+            &.en-font-animations-fire {
+                -webkit-animation-delay: 1.3s;
+                animation-delay: 1.3s;
+            }
+        }
+
+        .earn-title {
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            min-height: 60px;
+        }
+    }
+}
+
+.buy-voucher {
+    background: #A97630;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    border: none !important;
+    margin: 0 auto;
+    display: block;
+}
+
+#rewards-page-coming-soon {
+    .row {
+        margin: 0;
+    }
+
+    .h2-subheadline {
+        .fontTruenoBd;
+        font-size: 28px;
+        line-height: 1em;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .coming-soon-details {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 50px;
+        text-align: center;
+    }
+}
+
+#rewards-page-top-section {
+    .h2-subheadline {
+        #rewards-page-coming-soon .h2-subheadline;
+    }
+
+    .rewards-page-details {
+        #rewards-page-coming-soon .coming-soon-details;
+        margin: 20px 50px;
+    }
+
+    #saleDescription {
+        margin-top: 10px;
+
+        span {
+            display: block;
+
+            &.saleDate {
+                margin-top: 15px;
+            }
+        }
+
+        .en-font-animations-fire {
+            color: #FF0000;
+            -webkit-animation-delay: 1.3s;
+            animation-delay: 1.3s;
+        }
+    }
+
+    .fireSaleBodyText {
+        font-size: 20px;
+    }
+}

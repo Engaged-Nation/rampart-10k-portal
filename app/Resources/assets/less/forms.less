@@ -1,0 +1,110 @@
+@import (reference) "master.less";
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+    &::-webkit-input-placeholder { /* Chrome, Microsoft Edge, Opera 15+, Safari */
+        color: @base-gray;
+        text-transform: uppercase;
+        .fontTruenoRg;
+    }
+
+    &:-moz-placeholde { /* Firefox 4 - 18 */
+        color: @base-gray;
+        opacity: 1;
+        text-transform: uppercase;
+        .fontTruenoRg;
+    }
+
+    &::-moz-placeholder { /* Firefox 19+ */
+        color: @base-gray;
+        opacity: 1;
+        text-transform: uppercase;
+    }
+
+    &:-ms-input-placeholder { /* internet Explorer 10 and 11  */
+        color: @base-gray;
+        text-transform: uppercase;
+        .fontTruenoRg;
+    }
+
+    &::placeholder { /* Most modern browsers support this now. */
+        color: @base-gray;
+        text-transform: uppercase;
+        .fontTruenoRg;
+    }
+}
+
+select {
+    &.form-control {
+        text-transform: uppercase;
+        color: @base-gray;
+    }
+}
+
+.input-group {
+    margin-bottom: 10px;
+
+    &.rewards-card-input {
+        width: 100%;
+
+        input {
+            border-radius: 4px !important;
+        }
+    }
+
+    input {
+        margin-bottom: 0 !important;
+
+        &.locked {
+            background-color: #eee;
+            cursor: default;
+        }
+    }
+
+    .input-group-addon {
+        color: #FFFFFF;
+        background-color: #555555;
+        border: unset;
+
+        &.-title {
+            background: #222222;
+            border-color: #333333;
+            color: #fff;
+        }
+
+        &.edit-ok {
+            background: #222;
+            border-color: #222;
+
+            span {
+                &.glyphicon {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.form-group {
+    label {
+        color: @base-gray;
+        .fontTruenoBd;
+        text-transform: uppercase;
+    }
+}

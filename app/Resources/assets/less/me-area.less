@@ -1,0 +1,174 @@
+@import (reference) "master.less";
+
+#account {
+    .profile {
+        margin: 0;
+        text-align: center;
+        height: 15em;
+
+        @media (max-width: 1199px) {
+            height: 12em;
+        }
+
+        @media (max-width: 991px) {
+            height: 8em;
+        }
+
+        @media (max-width: 767px) {
+            height: 151px;
+        }
+
+        @media (max-width: 500px) {
+            height: 80px;
+        }
+
+        .me-area-background-image-wrapper {
+            position: absolute;
+            width: 100%;
+        }
+
+        .user-points-display-wrapper {
+            .fontTruenoRg;
+            font-size: 24px;
+            letter-spacing: .18px;
+            transform: translate(0, 115%);
+            text-shadow: 1px 1px 0 #010101;
+
+            @media (max-width: 1199px) {
+                transform: translate(0, 100%);
+                font-size: 20px;
+            }
+
+            @media (max-width: 991px) {
+                transform: translate(3%, 30%);
+                font-size: 18px;
+            }
+
+            @media (max-width: 767px) {
+                transform: translate(0, -20%);
+                margin-top: 2em;
+            }
+
+            @media (max-width: 500px) {
+                transform: translate(0, -20%);
+                margin-top: 1.5em;
+            }
+
+            @media (max-width: 330px) {
+                transform: translate(0, -15%);
+            }
+
+            .-points {
+                color: @base-bg-color;
+                text-transform: uppercase;
+                line-height: 1em;
+
+                .sm {
+                    font-weight: normal;
+
+                    @media (max-width: 991px) {
+                        display: block;
+                    }
+                }
+
+                .-value {
+                    text-align: center;
+                }
+            }
+
+            .-drawing-entries {
+                color: @base-bg-color;
+                text-transform: uppercase;
+                line-height: 1em;
+                padding-bottom: 5px;
+
+                @media (max-width: 991px) {
+                    padding-bottom: 0;
+                }
+
+                .sm {
+                    font-weight: normal;
+
+                    @media (max-width: 991px) {
+                        display: block;
+                    }
+                }
+
+                .-value {
+                    text-align: center;
+                }
+            }
+
+            a {
+                &:hover {
+                    color: #A97630;
+                }
+            }
+        }
+    }
+
+    .level-display-wrapper {
+        .fontTruenoRg;
+        font-size: 24px;
+        transform: translate(-3%, 58%);
+        text-shadow: 1px 1px 0 #010101;
+        color: #ffffff;
+        letter-spacing: .18px;
+        line-height: 1.2em;
+
+        span {
+            white-space: nowrap;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        @media (max-width: 1199px) {
+            transform: translate(-3%, 50%);
+            font-size: 20px;
+        }
+
+        @media (max-width: 991px) {
+            transform: translate(0, 38%);
+            font-size: 18px;
+
+            .col-md-12 {
+                div {
+                    height: 0;
+                }
+            }
+
+            button {
+                width: 150px;
+                height: 28px;
+                font-size: 14px;
+                line-height: 1.2em;
+            }
+        }
+
+        @media (max-width: 767px) {
+            transform: translate(0, -20%);
+            margin-top: 2em;
+            font-size: 24px;
+        }
+
+        @media (max-width: 500px) {
+            margin-top: 1em;
+        }
+
+        @media (max-width: 414px) {
+            margin-top: 0.9em;
+        }
+    }
+
+    #profile-mobile {
+        .user-points-display-wrapper {
+            .fluid-type(font-size, 300px, 767px, 18px, 26px);
+        }
+
+        .level-display-wrapper {
+            .fluid-type(font-size, 300px, 767px, 18px, 26px);
+        }
+    }
+}

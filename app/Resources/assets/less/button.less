@@ -1,0 +1,57 @@
+@import (reference) "master.less";
+
+.button {
+    .fontTruenoBd;
+    width: 178px;
+    height: 40px;
+    padding: 0;
+    background: @base-blue;
+    border-radius: 7px;
+    border: solid 3px @base-blue;
+    font-size: 22px;
+    letter-spacing: normal;
+    color: @base-bg-color;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.18em;
+    white-space: nowrap;
+    .en-button-animations-shrink-effect;
+    outline: none;
+    box-shadow: none;
+
+    &.active, &:active {
+        background-color: #fff;
+        color: @base-gray;
+
+    }
+}
+
+button {
+    &:not(.navbar-toggle) {
+        &:not(.iziModal-button-close) {
+            &:not(.iziToast-close) {
+                .button;
+            }
+        }
+    }
+
+    &.btn-default {
+        .button;
+    }
+
+    &.btn {
+        .button;
+    }
+}
+
+input[type='submit'] {
+    .button();
+}
+
+input[type='button'] {
+    .button();
+}
+
+#viewMyVouchersButton {
+    .button();
+}

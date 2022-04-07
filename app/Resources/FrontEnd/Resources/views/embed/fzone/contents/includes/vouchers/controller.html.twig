@@ -1,0 +1,23 @@
+{% extends 'FrontEnd/Resources/views/embed/fzone/contents/includes/vouchers/controller/base.html.twig' %}
+
+{% block response %}
+    {{ 'fzone.voucher.success'|trans({'%voucherAdjectiveLine%': voucherAdjectiveLine, '%voucherTitle%': voucherTitle, '%voucherAmount%': voucherAmount, '%points%': points}, 'frontend')|raw }}
+    <div class="text-center">
+        <div class="modal-button-wrapper">
+            <button class="modal-button-style" data-gtm-dimension="v2/Redeemable_Rewards/Initial/Download_Button_Success" onclick="EngagedNation.Callback.DownloadPdf.OnClick(
+                    {
+                    'data-downloadpdf-sourceurl': 'api/public/user/voucher/download?usersVouchersId=' + encodeURIComponent('{{ publicUserVoucherId|e('js') }}'),
+                    'data-downloadpdf-filename': '{{ voucherTitle }}',
+                    'data-downloadpdf-orientation': 'portrait'
+                    }
+                    );"
+            >
+                DOWNLOAD YOUR REWARD
+            </button>
+            <button class="modal-button-style view-my-prizes-btn" data-gtm-dimension="v2/Redeemable_Rewards/Initial/My_Prizes_Button_Success" data-chainable-click='["#lt_prize_info", "#prize-page.btn-view-my-voucher"]'>
+                VIEW MY PRIZES
+            </button>
+        </div>
+    </div>
+{% endblock response %}
+
