@@ -1,5 +1,5 @@
 /**
- * Rampart 10k version of lbxgrid
+ * Rampart10k version of lbxgrid
  *
  * @author Matthew Kosolofski <matthew.kosolofski@engagednation.com>
  */
@@ -15,7 +15,7 @@ EngagedNation.RequireJS.define(
          *
          * @param object|null config Config overrides.
          */
-        var Rampart 10kLbxGrid = function(config)
+        var Rampart10kLbxGrid = function(config)
         {
             this.config = {
                 xcloseBtnClass: 'fa fa-times',
@@ -29,7 +29,7 @@ EngagedNation.RequireJS.define(
         /**
          * Add methods
          */
-        Rampart 10kLbxGrid.prototype = $.extend(
+        Rampart10kLbxGrid.prototype = $.extend(
             Object.create(LbxGrid.prototype),
             {
                 buildGrid: function()
@@ -72,14 +72,14 @@ EngagedNation.RequireJS.define(
          */
         $.fn.lbxgrid = function(config)
         {
-            EngagedNation.jQuery.extensions.Rampart 10kLbxGrid = new Rampart 10kLbxGrid(config);
+            EngagedNation.jQuery.extensions.Rampart10kLbxGrid = new Rampart10kLbxGrid(config);
         };
 
         $.lbxgrid = function(config)
         {
-            EngagedNation.jQuery.extensions.Rampart 10kLbxGrid = new Rampart 10kLbxGrid(config);
+            EngagedNation.jQuery.extensions.Rampart10kLbxGrid = new Rampart10kLbxGrid(config);
         };
 
-        return Rampart 10kLbxGrid;
+        return Rampart10kLbxGrid;
     }
 );
