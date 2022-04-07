@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d8000142a9bab55e7129bdda1042394",
+    "content-hash": "6bc1005c42e69e32d7d3b3bca3bafed8",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Engaged-Nation/portal-core.git",
-                "reference": "1fc39d0006ce292f6d559a5c0fcc6eeee94294f4"
+                "reference": "b8c0d989215d238dcb4f54d74867dce19c1f145f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Engaged-Nation/portal-core/zipball/1fc39d0006ce292f6d559a5c0fcc6eeee94294f4",
-                "reference": "1fc39d0006ce292f6d559a5c0fcc6eeee94294f4",
+                "url": "https://api.github.com/repos/Engaged-Nation/portal-core/zipball/b8c0d989215d238dcb4f54d74867dce19c1f145f",
+                "reference": "b8c0d989215d238dcb4f54d74867dce19c1f145f",
                 "shasum": ""
             },
             "require": {
@@ -1166,7 +1166,7 @@
                 "source": "https://github.com/Engaged-Nation/portal-core/tree/rc",
                 "issues": "https://github.com/Engaged-Nation/portal-core/issues"
             },
-            "time": "2022-03-25T22:43:54+00:00"
+            "time": "2022-03-31T22:21:13+00:00"
         },
         {
             "name": "guzzlehttp/command",
