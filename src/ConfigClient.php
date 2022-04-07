@@ -55,6 +55,6 @@ class ConfigClient extends AbstractConfigClient
      */
     public static function getClientAlias()
     {
-        return 'rampart-10k-10k';
+        return 'rampart-10k';
     }
 }

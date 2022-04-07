@@ -1,6 +1,6 @@
 {
-    "name": "engaged-nation/rampart-10k-10k-portal",
-    "description": "Rampart 10k 10k Portal Site",
+    "name": "engaged-nation/rampart-10k-portal",
+    "description": "Rampart 10k Portal Site",
     "type": "project",
     "require": {
         "php": "^5.6",
