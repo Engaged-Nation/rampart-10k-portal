@@ -1,5 +1,5 @@
 /**
- * Rampart version of lbxtooltip
+ * Rampart 10k version of lbxtooltip
  *
  * @author Erin Nire <erin@engagednation.com>
  */
@@ -15,7 +15,7 @@ EngagedNation.RequireJS.define(
          *
          * @param object|null config Config overrides.
          */
-        var RampartLbxToolTip = function(config)
+        var Rampart 10kLbxToolTip = function(config)
         {
             LbxToolTip.apply(this, arguments);
         };
@@ -23,7 +23,7 @@ EngagedNation.RequireJS.define(
         /**
          * Add methods
          */
-        RampartLbxToolTip.prototype = $.extend(
+        Rampart 10kLbxToolTip.prototype = $.extend(
             Object.create(LbxToolTip.prototype),
             {
                 buildHtml: function($me){
@@ -34,9 +34,9 @@ EngagedNation.RequireJS.define(
 
         $.lbxtooltip = function(config)
         {
-            EngagedNation.jQuery.extensions.RampartLbxToolTip = new RampartLbxToolTip(config);
+            EngagedNation.jQuery.extensions.Rampart 10kLbxToolTip = new Rampart 10kLbxToolTip(config);
         };
 
-        return RampartLbxToolTip;
+        return Rampart 10kLbxToolTip;
     }
 );
