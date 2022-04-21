@@ -1030,3 +1030,14 @@ api:
         message: "<strong>YOUR REWARD IS EXPIRING</strong><br />
           You have <span>%amount% reward%plural%</span> about <span>expire</span>.<br/>
           <span class=\"underLine\">Click here</span> to access your rewards."
+system:
+  session:
+    timeout: '<h1 class="text-center mb-3">REFRESHING YOUR EXPERIENCE</h1>
+      <p class="text-center mb-0 loader-body">Please wait just a few moments for the latest and greatest updates to be applied to your account.</p>
+      <div id="loaderWrapper"><div class="en-animation-loader-container" style="margin: 0 auto;"><div class="en-animation-loader-bee">
+      <div class="en-animation-loader-body"><div class="en-animation-loader-line"></div></div><div><div class="en-animation-loader-wing-right"></div>
+      <div class="en-animation-loader-wing-left"></div></div><div class="en-animation-loader-path"><div class="en-animation-loader-pollen"></div>
+      <div class="en-animation-loader-pollen"></div><div class="en-animation-loader-pollen"></div><div class="en-animation-loader-pollen"></div>
+      <div class="en-animation-loader-pollen"></div><div class="en-animation-loader-pollen"></div><div class="en-animation-loader-pollen"></div>
+      <div class="en-animation-loader-pollen"></div><div class="en-animation-loader-pollen"></div><div class="en-animation-loader-pollen"></div>
+      <div class="en-animation-loader-pollen"></div><div class="en-animation-loader-pollen"></div></div></div></div></div>'
