@@ -354,13 +354,14 @@ fzone:
     header_redeemable: "Go play with your redeemable reward"
     header_instant: "Go play with your instant reward"
     header_redeemable_employee: "Enjoy your redeemable reward"
+    headline: "MY PRIZES"
 
-    bodycopy: "<p class=\"body-p\">View your active prizes and redeem them by swiping
-      your Rampart 10k Rewards Card at any Rampart 10k promotional kiosk during the dates shown below.</p>"
+    bodycopy: "<p class=\"body-p\">View your active rewards and redeem them by swiping your Rampart Rewards Card at any 
+      Rampart promotional kiosk kiosk during the dates shown below.</p>"
 
     details: '<p class="myvoucher-issuedTo" style="display: none;"><span class="goGold">Player Name</span>: %issuedTo%</p>
       <p class="myvoucher-nickName" style="display: none;"><span class="goGold">Nickname</span>: %nickname%</p>
-      <p class="myvoucher-playersCard" style="display: none;"><span class="goGold">Rampart 10k Rewards Card Number</span>: %playerscard%</p>
+      <p class="myvoucher-playersCard" style="display: none;"><span class="goGold">Rampart Rewards Card Number</span>: %playerscard%</p>
       <p class="myvoucher-issuedDate" style="display:none;"><span class="goGold">Date Issued</span>: %issued_date%</p>
       <p class="myvoucher-expireDate" style="display:none;"><span class="goGold">Expiration Date</span>: %expire_date%</p>
       <p class="myvoucher-vid" style="display:none;"><span class="goGold">Voucher Id</span>: %vid%</p>
