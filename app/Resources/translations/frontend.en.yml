@@ -117,6 +117,16 @@ fzone:
           email within a few minutes, please check your spam folder.)</p>
         <p class='body-p-left'>Thank you for signing up! Have fun and good luck.</p>"
 
+      success: "<h1 class='text-center mb-3'>SUCCESS!</h1> <p class='text-center mb-2 loader-body'>We are now logging you into the site.</p>
+        <p class='text-center mb-2 loader-body'>Have fun and good luck!</p>
+        <div id='loaderWrapper'><div class='en-animation-loader-container' style='margin: 0 auto;'><div class='en-animation-loader-bee'>
+        <div class='en-animation-loader-body'><div class='en-animation-loader-line'></div></div><div><div class='en-animation-loader-wing-right'></div>
+        <div class='en-animation-loader-wing-left'></div></div><div class='en-animation-loader-path'><div class='en-animation-loader-pollen'></div>
+        <div class='en-animation-loader-pollen'></div><div class='en-animation-loader-pollen'></div><div class='en-animation-loader-pollen'></div>
+        <div class='en-animation-loader-pollen'></div><div class='en-animation-loader-pollen'></div><div class='en-animation-loader-pollen'></div>
+        <div class='en-animation-loader-pollen'></div><div class='en-animation-loader-pollen'></div><div class='en-animation-loader-pollen'></div>
+        <div class='en-animation-loader-pollen'></div><div class='en-animation-loader-pollen'></div></div></div></div></div>"
+
   logout: ""
 
   #
@@ -356,7 +366,7 @@ fzone:
     header_redeemable_employee: "Enjoy your redeemable reward"
     headline: "MY PRIZES"
 
-    bodycopy: "<p class=\"body-p\">View your active rewards and redeem them by swiping your Rampart Rewards Card at any 
+    bodycopy: "<p class=\"body-p\">View your active rewards and redeem them by swiping your Rampart Rewards Card at any
       Rampart promotional kiosk during the dates shown below.</p>"
 
     details: '<p class="myvoucher-issuedTo" style="display: none;"><span class="goGold">Player Name</span>: %issuedTo%</p>
@@ -895,7 +905,7 @@ fzone:
       Three-Card Monte and Crossword. Then, exchange your M credits for exclusive rewards you can redeem at M life Rewards Desk,
       Resort & Spa-like free play, dining offers, spa discounts and more.<br /><br />M life prides itself on
       offering innovative programs that bring you value and excitement. Have fun and good luck.<br /><br />Now, go play!<br /><br />
-      Executive Director of Marketing<br />M life" #html+
+      Executive Director of Marketing<br />M life"
 
   #
   # drawings
